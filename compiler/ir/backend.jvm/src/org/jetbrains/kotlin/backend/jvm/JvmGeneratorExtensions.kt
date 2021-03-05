@@ -161,7 +161,7 @@ class JvmGeneratorExtensions(private val generateFacades: Boolean = true) : Gene
         )
     }
 
-    override val shouldPreventDeprecatedUnaryOperatorIntegerValueTypeConversion: Boolean
+    override val shouldPreventDeprecatedIntegerValueTypeLiteralConversion: Boolean
         get() = true
 
     private val flexibleNullabilityAnnotationClass =
